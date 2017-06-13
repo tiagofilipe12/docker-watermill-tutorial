@@ -8,17 +8,25 @@ This is a dockerfile for using with bionode-watermill-tutorial. Here you will
 
 #### Using Git Hub
 
-* `git clone https://github.com/tiagofilipe12/docker-watermill-tutorial.git`
-* `docker build . bionode-watermill`
+1) `git clone https://github.com/tiagofilipe12/docker-watermill-tutorial.git`
+2) `docker build . bionode-watermill`
 
 or
 
 #### Using Docker Hub
 
-* `docker pull ...`
+1') `docker pull tiagofilipe12/docker-watermill-tutorial`
 
 ## Running the docker container
-* `docker run -it bionode-watermill zsh`
+
+#### From Git Hub clone
+3) `docker run -it bionode-watermill zsh`
+
+or
+
+#### From Docker Hub pull
+
+2')`docker run -it tiagofilipe12/docker-watermill-tutorial zsh`
 
 ## Running bionode-watermill two-mappers example
 * `cd examples/pipelines/two-mappers`
